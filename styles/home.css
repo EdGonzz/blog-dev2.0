@@ -1,0 +1,33 @@
+.header {
+  padding: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  font-family: var(--font-kalam);
+  font-size: var(--text-xl);
+  font-weight: bold;
+  color: var(--text-secondary-color);
+}
+
+.header__links {
+  display: flex;
+  gap: 2rem;
+}
+
+.header__link {
+  font-size: var(--text-base);
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
+
+
+
+@media (hover: hover) {
+  .header__link:hover {
+    color: var(--color-primary);
+  }
+}
