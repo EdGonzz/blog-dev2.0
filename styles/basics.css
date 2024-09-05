@@ -46,7 +46,9 @@ img, video, svg {height: auto; max-width: 100%;}
   --color-primary: #BC6FF1;
   --text-color: #fff;
   --text-secondary-color: #bfbfbf;
+  --text-tertiary-color: #727272;
   --border-gray: #737373;
+  --border-gray-dark: #404040;
   --text-dark-color: #0F1217;
   --bg-color: #171717;
 }
