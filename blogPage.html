@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ed.dev</title>
+  <link rel="stylesheet" href="./styles/basics.css">
+  <link rel="stylesheet" href="./styles/blogPage.css">
+  <link rel="stylesheet" href="./styles/media.css">
+</head>
+
+<body>
+  <header class="header">
+    <a class="header__link" href="./index.html">
+      <span class="header__logo">&#60;ed.dev&#62;</span>
+    </a>
+    <nav class="header__links">
+      <a class="header__link" href="./index.html">Home</a>
+      <a class="header__link" href="./explore.html">Explore</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <header class="main__header">
+      <div class="main__tags">
+        <a class="main__tag" href="./cssArticles.html">CSS</a>
+        <a class="main__tag" href="./htmlArticles.html">HTML</a>
+      </div>
+      <h1 class="main__title">How to Create a Simple Web Page with HTML and CSS</h1>
+      <p class="main__date">Published on 2020-01-01</p>
+    </header>
+
+    <section class="main__paragraph">
+      <p class="text__paragraph">Creating a simple web page using HTML and CSS is an essential skill for anyone interested in web development. In this guide, we’ll walk you through the basics of creating a webpage and styling it using HTML and CSS.</p>
+    </section>
+
+    <section class="main__paragraph">
+      <h2 class="title__paragraph">Step 1: Setting Up the HTML Structure</h2>
+      <p class="text__paragraph">HTML (HyperText Markup Language) is the standard markup language for creating web pages. Let’s start by creating a basic HTML structure.</p>
+      
+      <picture>
+        <source srcset="./styles/assets/img/html-2x-compress.webp" type="image/webp" media="(width > 700px)">
+        <source srcset="./styles/assets/img/html-1x-compress.webp" type="image/webp" media="(width < 700px)">
+        <img loading="lazy" class="blog-img" src="./styles/assets/img/html-1x-compress.webp alt="">
+      </picture>
+
+      <p class="text__paragraph">In this code:</p>
+
+      <ul class="list__content">
+        <li class="list__paragraph">The <code>&lt;!DOCTYPE html&gt;</code> declaration defines the document type.</li>
+        <li class="list__paragraph">The <code>&lt;html&gt;</code> tag contains all the content of the page.</li>
+        <li class="list__paragraph">The <code>&lt;head&gt;</code> section includes meta information, like the character set and title.</li>
+        <li class="list__paragraph">The <code>&lt;body&gt;</code> contains the content that will be displayed on the page.</li>
+      </ul>
+    </section>
+
+    <section class="main__paragraph">
+      <h2 class="title__paragraph">Step 2: Adding Some CSS</h2>
+      <p class="text__paragraph">CSS (Cascading Style Sheets) is used to style the HTML content. We can add CSS directly in the <code>&lt;head&gt;</code> section or in a separate file. For simplicity, let's include it within the <code>&lt;head&gt;</code> tag.</p>
+
+      <picture>
+        <source srcset="./styles/assets/img/css-2x-compress.webp" type="image/webp" media="(width > 700px)">
+        <source srcset="./styles/assets/img/css-1x-compress.webp" type="image/webp" media="(width < 700px)">
+        <img loading="lazy" class="blog-img" src="./styles/assets/img/css-1x-compress.webp" alt="">
+      </picture>
+
+      <p class="text__paragraph">In this CSS:</p>
+      <ul class="list__content">
+        <li class="list__paragraph">The <code>body</code> rule sets a background color, removes margins and padding, and sets a default font.</li>
+        <li class="list__paragraph">The <code>header</code> is styled with a background color, text color, padding, and centered text.</li>
+        <li class="list__paragraph">The <code>footer</code> is styled similarly to the header but is positioned at the bottom of the page.</li>
+      </ul>
+    </section>
+
+    <section class="main__paragraph">
+      <h2 class="title__paragraph">Step 3: Viewing Your Page</h2>
+      <p class="text__paragraph">Save your HTML file with a <code>.html</code> extension and open it in your web browser. You should see a simple but nicely styled webpage with a header, a content section, and a footer.</p>
+    </section>
+
+    <section class="main__paragraph">
+      <p class="text__paragraph">Creating a simple web page with HTML and CSS is straightforward. As you continue learning, you can add more complex elements and styles to make your web pages more dynamic and engaging.</p>
+    </section>
+
+    <section class="main__paragraph">
+      <p class="text__paragraph">Happy coding!</p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">© All rights reserved - ed.dev</p>
+  </footer>
+
+</body>
+
+</html>
