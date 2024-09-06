@@ -1,14 +1,22 @@
 
 @media (hover: hover) {
   .header__logo:hover {
+    transition: color 0.3s;
     color: var(--color-primary);
   }
 
   .header__link:hover {
+    transition: color 0.3s;
     color: var(--color-primary);
   }
 
-  .blog:hover p {
+  .blog__header:hover p{
+    transition: color 0.3s;
+    color: var(--color-primary);
+  }
+
+  .main__tag:hover {
+    transition: color 0.3s;
     color: var(--color-primary);
   }
 }
