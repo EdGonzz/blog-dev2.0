@@ -32,6 +32,39 @@
     color: var(--color-primary);
     text-decoration: underline;
   }
+
+    .header__logo:active {
+    transition: color 0.3s;
+    color: var(--color-primary);
+  }
+
+  .header__link:active {
+    transition: color 0.3s;
+    color: var(--color-primary);
+  }
+
+  .blog__header:active p{
+    transition: color 0.3s;
+    color: var(--color-primary);
+  }
+
+  .main__tag:active {
+    transition: color 0.3s;
+    color: var(--bg-color);
+    background: var(--color-primary);
+  }
+
+  .main__tag:active .count__blogs {
+    transition: color;
+    color: var(--bg-color);
+    opacity: 0.6;
+  }
+
+  .link:active {
+    transition: color 0.3s;
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
 }
 
 @media (width < 320px) {
