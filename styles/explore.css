@@ -30,19 +30,34 @@ body {
   text-decoration: none;
 }
 
-.main {
-  margin-top: 3rem;
+.main__header {
+  margin-top: 2rem;
 }
 
-.main__header {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+.main__title {
+  font-size: var(--text-5xl);
+  color: var(--text-color);
+}
+
+.main__subtitle {
+  font-size: var(--text-lg);
+  color: var(--text-secondary-color);
+}
+
+.tag__section {
+  margin-top: 4rem;
+}
+
+.label__tag {
+  color: var(--border-gray);
+  font-size: var(--text-base);
 }
 
 .main__tags {
+  margin-top: 1rem;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -51,61 +66,16 @@ body {
   padding: 0.5rem 1rem;
   background-color: var(--border-gray-dark);
   border-radius: 50px;
-  font-size: var(--text-sm);
+  font-size: var(--text-base);
   color: var(--text-color);
   text-decoration: none;
   font-weight: 600;
 }
 
-.main__title {
-  font-size: var(--text-2xl);
-  color: var(--text-color);
-}
-
-.main__date {
-  font-size: var(--text-xs);
+.count__blogs {
+  margin-left: .6rem;
   color: var(--text-tertiary-color);
-}
-
-.main__paragraph {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
-.text__paragraph {
-  font-size: var(--text-base);
-  color: var(--text-secondary-color);
-  line-height: 1.8;
-}
-
-.title__paragraph {
-  font-size: var(--text-xl);
-  color: var(--text-color);
-  margin-bottom: 2rem;
-}
-
-.list__content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 90%;
-  margin: 0 auto;
-}
-
-.list__paragraph {
-  font-size: var(--text-sm);
-  color: var(--text-secondary-color);
-}
-
-.blog-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
-code {
-  font-family: "Courier New", Courier, monospace;
-  color: #66d9ef;
+  font-weight: 400;
 }
 
 .footer {

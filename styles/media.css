@@ -17,7 +17,20 @@
 
   .main__tag:hover {
     transition: color 0.3s;
+    color: var(--bg-color);
+    background: var(--color-primary);
+  }
+
+  .main__tag:hover .count__blogs {
+    transition: color;
+    color: var(--bg-color);
+    opacity: 0.6;
+  }
+
+  .link:hover {
+    transition: color 0.3s;
     color: var(--color-primary);
+    text-decoration: underline;
   }
 }
 
@@ -53,9 +66,17 @@
     align-items: center;
   }
 
+  .label__tag {
+    font-size: var(--text-xl);
+  }
+
   .main__tag {
     font-size: var(--text-xl);
     padding: .8rem 2rem;
+  }
+
+  .count__blogs {
+    font-size: var(--text-xl);
   }
 
   .main__date {
@@ -97,6 +118,6 @@
 
 @media (width > 1000px) {
   body {
-    width: 70%;
+    width: 50%;
   }
 }
